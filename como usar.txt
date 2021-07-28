@@ -1,0 +1,17 @@
+Primero instalamos la librerias nesesaria 
+cryptography = "pip install cryptography"
+fernet = "pip install fernet"
+tener instalado python 
+------------------------------------------
+¿Como usar?
+primero generemaron un clave con la opcion 1 y ponemos un nombre al archivo que contendra la clave
+
+Para Encryptar un archivo 
+selecionamos la opcion 1 y escribimos la ruta del archivo con la clave de encriptacion y escribimos la ruta con el archivo a encryptar 
+una ves encryptado el archivo sera ilegible 
+
+Para Desencryptar un archivo
+selecionas la opcion 2 y escribimos la ruta del archivo con la clave que se uso para encryptar el o los archivos (si se usa una clave diferente el archivo quedara 
+ilegible "creo") y la ruta del archivo un ves el archivo desencryptado podra volver a leerse con normalidad  
+
+nota puede modificar el programa como quieras 
