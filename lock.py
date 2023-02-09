@@ -64,7 +64,6 @@ while (i !=0):
 		print("Que archivo va a encryptar")
 		nom_archivo = input()
 		encript(nom_archivo,clave)
-		##exit()
 	elif op == 2:
 		print("Elija el archivo con la clave de encryptacion")
 		key= input()
@@ -72,10 +71,8 @@ while (i !=0):
 		print("Que archivo va a desencriptar")
 		nom_archivo = input()
 		desencript(nom_archivo,clave)
-		##exit()
 	else:
 		print("Nombre para la clave")
 		name = input()
 		genera_clave(name)
-		##exit()
 	
